@@ -61,8 +61,8 @@ if __name__ == '__main__':
 
     plt.plot(sizes, numpy_times, label='NumPy array')
     plt.plot(sizes, python_times, label='Linked list')
-    plt.xlabel('Array Size')
+    plt.xlabel('Number of elements')
     plt.ylabel('Time (seconds)')
-    plt.title('Comparison between Array and linked list Writing Time')
+    plt.title('Comparison between Numpy Array and Linked list Writing Time')
     plt.legend()
     plt.show()
