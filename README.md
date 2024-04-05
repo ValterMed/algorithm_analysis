@@ -25,10 +25,10 @@ Here you can see the graphical representation:
 ## Comparison
 
 For this comparison we were asked to develop a Python script that compares the execution time each data structure takes to insert elements.
-You can find the that script in the folder called scripts.
+- *You can find the that script in the folder called scripts.*
 
-- **Considerations**
-    - The script only contains methods for insertion of both data structures.
+**Considerations**
+- The script only contains methods for insertion of both data structures.
 
 
 **The graph below shows the results of the comparison:**
