@@ -51,7 +51,7 @@ def array(size):
 
 if __name__ == '__main__':
     
-    sizes = [10**i for i in range(1, 6)]  # Sizes of arrays: [10, 100, 1000, 10000, 100000]
+    sizes = [10**i for i in range(1, 5)]  # Sizes of arrays: [10, 100, 1000, 10000, 100000]
     numpy_times = []
     python_times = []
 

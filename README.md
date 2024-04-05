@@ -24,7 +24,15 @@ Here you can see the graphical representation:
 
 ## Comparison
 
-What is going to be compared is the execution time each data structure needs to insert elements.
+For this comparison we were asked to develop a Python script that compares the execution time each data structure takes to insert elements.
+You can find the that script in the folder called scripts.
 
-**The next graph below shows the comparison:**
-![Comparison](images/graph_lis_arr.png)
+- **Considerations**
+    - The script only contains methods for insertion of both data structures 
+
+
+**The graph below shows the results of the comparison:**
+
+![Comparison](images/comparison.jpg)
+
+You can see how at the beginning the time is almost equal, but as the number of elements increases the time execution of the linked list also increases.
