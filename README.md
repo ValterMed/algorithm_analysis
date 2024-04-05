@@ -23,3 +23,8 @@ Here you can see the graphical representation:
 *This image was taken from the website [Geeksforgeeks](https://www.geeksforgeeks.org/)*
 
 ## Comparison
+
+What is going to be compared is the execution time each data structure needs to insert elements.
+
+**The next graph below shows the comparison:**
+![Comparison](images/graph_lis_arr.png)
