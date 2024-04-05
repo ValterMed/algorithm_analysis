@@ -33,6 +33,6 @@ You can find the that script in the folder called scripts.
 
 **The graph below shows the results of the comparison:**
 
-![Comparison](images/comparison.jpg)
+![Comparison](images/comparison.JPG)
 
 You can see how at the beginning the time is almost equal, but as the number of elements increases the time execution of the linked list also increases.
