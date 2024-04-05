@@ -28,7 +28,7 @@ For this comparison we were asked to develop a Python script that compares the e
 You can find the that script in the folder called scripts.
 
 - **Considerations**
-    - The script only contains methods for insertion of both data structures 
+    - The script only contains methods for insertion of both data structures.
 
 
 **The graph below shows the results of the comparison:**
