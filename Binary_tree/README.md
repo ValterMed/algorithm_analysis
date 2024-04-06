@@ -10,7 +10,7 @@ It is a non-linear data structre in which each node can have at most 2 children,
 - The bottom-most nodes are called **leaves**.
 
 **Graphical representation of a tree**:
-![Binary tree representation](images/tree.jpg)
+![Binary tree representation](images/tree.JPG)
 *This image was taken from the website [Learners Bucket](learnersbucket.com)*.
 
 ### Binary search tree
