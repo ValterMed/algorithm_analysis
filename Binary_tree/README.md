@@ -1,5 +1,5 @@
 
-# Binary search tree
+# Binary tree
 The purpose of this README is to describe in a briefly way what is a binary tree and what its characteristics are.
 You can check out the binary tree I developed using Python in the folder called scripts.
 
@@ -13,7 +13,7 @@ It is a non-linear data structre in which each node can have at most 2 children,
 ![Binary tree representation](images/tree.jpg)
 *This image was taken from the website [Learners Bucket](learnersbucket.com)*.
 
-### What is a binary search tree
+### Binary search tree
 This is a type of binary tree that is in ordered form. It has the following conditions:
 - Each node contains: data, pointer to the left child and pointer to the right child.
 - Left child of the node must have a value less than its parent's value.
