@@ -1,0 +1,4 @@
+Comparación de Complejidades
+El algoritmo iterativo divide repetidamente el rango de números por la mitad hasta que encuentra el número deseado. Por lo tanto, su complejidad de tiempo es O(logn).
+
+El algoritmo recursivo también divide el rango de números por la mitad en cada llamada recursiva. Sin embargo, cada llamada recursiva crea una nueva instancia de la función con nuevos parámetros, lo que puede aumentar el tiempo de ejecución y el uso de la memoria. La complejidad de su tiempo también es O(logn), pero puede tener un mayor costo de memoria debido a las llamadas recursivas.
