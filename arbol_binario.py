@@ -1,68 +1,28 @@
 class Nodo:
+    """Representa un nodo en un árbol binario."""
     def __init__(self, valor):
+        """Inicializa un nodo con el valor dado."""
         self.valor = valor
         self.izquierda = None
         self.derecha = None
 
-class ArbolBinarioBusqueda:
+class ArbolBinario:
+    """Representa un árbol binario."""
     def __init__(self):
+        """Inicializa un árbol binario vacío."""
         self.raiz = None
 
     def insertar(self, valor):
+        """Inserta un nuevo valor en el árbol."""
         if self.raiz is None:
             self.raiz = Nodo(valor)
         else:
-            self._insertar_recursivo(self.raiz, valor)
-
-    def _insertar_recursivo(self, nodo, valor):
-        if valor < nodo.valor:
-            if nodo.izquierda is None:
-                nodo.izquierda = Nodo(valor)
-            else:
-                self._insertar_recursivo(nodo.izquierda, valor)
-        elif valor > nodo.valor:
-            if nodo.derecha is None:
-                nodo.derecha = Nodo(valor)
-            else:
-                self._insertar_recursivo(nodo.derecha, valor)
+            self._insertar_recursivo(valor, self.raiz)
 
     def buscar(self, valor):
-        return self._buscar_recursivo(self.raiz, valor)
+        """Busca un valor en el árbol."""
+        return self._buscar_recursivo(valor, self.raiz)
 
-    def _buscar_recursivo(self, nodo, valor):
-        if nodo is None or nodo.valor == valor:
-            return nodo is not None
-        if valor < nodo.valor:
-            return self._buscar_recursivo(nodo.izquierda, valor)
-        else:
-            return self._buscar_recursivo(nodo.derecha, valor)
-
-    def _imprimir_recursivo(self, nodo, espacio):
-        if nodo is not None:
-            espacio += 5
-            self._imprimir_recursivo(nodo.derecha, espacio)
-            print()
-            for _ in range(5, espacio):
-                print(end=" ")
-            print(nodo.valor)
-            self._imprimir_recursivo(nodo.izquierda, espacio)
-
-    def imprimir(self):
-        self._imprimir_recursivo(self.raiz, 0)
-
-# Ejemplo de uso
-arbol = ArbolBinarioBusqueda()
-arbol.insertar(10)
-arbol.insertar(5)
-arbol.insertar(15)
-arbol.insertar(7)
-arbol.insertar(3)
-arbol.insertar(12)
-arbol.insertar(14)
-arbol.insertar(20)
-arbol.insertar(18)
-arbol.insertar(16)
-
-# Mostrar el árbol binario
-print("Árbol binario:")
-arbol.imprimir()
+    def imprimir_inorden(self):
+        """Imprime los valores del árbol en orden (inorden)."""
+        self._imprimir_inorden_recursivo(self.raiz)
